@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_e5d343a0b884fb1fbe32c0d6ef9cbc66b5458799.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_8fbcb7a39c11ce2c64e9599570849ecf1b0157ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_fce7ce863615d9a698a48db35ba7a2cd1658d19c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_21ac7d6f719fb88e4b849275808b42015fd6fc9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_532bc1b66fdce710838cb1c5e0f0952b7b14fde5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_343bb477f90f969e912bf30df4e829181e24cfb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_28b809638d837570f397ceb472e370d2c9b1590e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_6acc2740a31d3e6161e16a9e4b1515b6b546c5bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_ebbcbdaf0d223e19268eb5aebac977f9190cc88a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_4bccea6c1af4f2ceabfb4d5b2d1c7d2617139f54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ebe04faac02ade58a0a51ebec9ad914e78c756b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_34606f6df8e43d17217d59036bdc8e436c6a1cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_c470f4e8dedbd2ea677d7103dc83b8773a77a179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7cb5a96f7bf8683c2ffc6292ad1a64c782985efb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_73f6274420877a4c5c9e55b98db49e6f34917676.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_014368bafdc2ad5a4b4c73f241b11d8d70ed00ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_cb9e1168f8f2cf85fd4dd4865f1e3f94e6c56515.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_dc1153c68e65352f32d6bb6f81bc3a56b6a83ecf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_089a022d21e65f4f5a1aedf4772cb2aae3c073e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_7fd4ead5f6d5e83c7cff54e3467ca5f1ae461e37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_678fc5776083b9ec9890a4b576e558c8e0772d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_8b2891adf53e84eb6f71f46a3f390b314e639804.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/pawsfinal/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/pawsfinal-react-native-vector-icons-unspecified_2bcdd82b73fa41e0fe1c75ee9669faf6800b3a1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_906aebfc67eae947ffc728256a30003d5f24536b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_4f489ad62ac97e3a0fd3ae366e2badd7130a1906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_bb960ed872c6aa700825e2c14fd0afb30605adfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_bb00ce28e2517870f4e009ef34b8441c12493c9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b4e760d5f61a5a07c389b754b8a0076da8273ccb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="176a45541313bf1b8f388c24a4ab57d65fc4ab96">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.54.3_519fdf851c6a071e9eb645395a9fd490319d1714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_e0279a730a744c2e931f6a552e1db94c6370f1ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_d8b3e3d8ccca823cf26fe2a57cef34ca248abc8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/pawsfinal/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a4d39342efc0fc4596ae2aa7cfb4a3ad3684f12a">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/pawsfinal-react-native-navigation-unspecified_db3930111a816ff70c41885e824854e07bad0aa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_d1cde14b3b0e073666c5f9d7bfdb1e66b20fbbc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_ed5db21dc51bdd201e75dab347a6645b9760858d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_86cf6ba9c48e4f9a271b96902bbdd44e6658d7f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_4e09c8b1fb0bcd96d8fada862963a4b2107c5b87.jar" />
+    </item>
+
+</items>

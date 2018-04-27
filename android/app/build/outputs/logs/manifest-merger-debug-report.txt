@@ -1,0 +1,316 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/5cc6974b95c230c0f194de4f106d41dc/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/rondutta/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/982beb24ad0c4de4cfebf2e5d4f68ce0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/3caadccae012b81e052b2dc97a10e3f9/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/83b9bd9d15871ac6efd9120b990586d5/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e4f74824ebe54a0212f25a96c45a6aaa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5cea00ad3ede163e50d5f42b802b5738/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/62fee95d6de55b1e58aa64c959f4d28d/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/89ff0b668619b6d01b5aa10913124ee8/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/6a4a7dbd15f9a5d87367ac3fbd598764/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3406f7ccb0ff500475a6c235f9f24975/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/506572ada58ed253cc668dfe46a2cdd2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/188e58ab56881bf486615b88e1beb14e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2d2392155b168eb96ad53d800e3a3bc7/AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/948acf4f48f9abbf4170a15296a05d21/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/5cc6974b95c230c0f194de4f106d41dc/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/5cc6974b95c230c0f194de4f106d41dc/AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/rondutta/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/982beb24ad0c4de4cfebf2e5d4f68ce0/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/rondutta/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/982beb24ad0c4de4cfebf2e5d4f68ce0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/3caadccae012b81e052b2dc97a10e3f9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/3caadccae012b81e052b2dc97a10e3f9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/62fee95d6de55b1e58aa64c959f4d28d/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/62fee95d6de55b1e58aa64c959f4d28d/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/89ff0b668619b6d01b5aa10913124ee8/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/89ff0b668619b6d01b5aa10913124ee8/AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/948acf4f48f9abbf4170a15296a05d21/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/948acf4f48f9abbf4170a15296a05d21/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:10:7-39
+	android:icon
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:13:7-38
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.pawsfinal.MainActivity
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:14:7-23:18
+	android:label
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:windowSoftInputMode
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:17:9-79
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:15:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:24:7-84
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:24:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:25:7-27:64
+	android:value
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:27:7-62
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:26:7-52
+uses-sdk
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/5cc6974b95c230c0f194de4f106d41dc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/5cc6974b95c230c0f194de4f106d41dc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/rondutta/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/982beb24ad0c4de4cfebf2e5d4f68ce0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/rondutta/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/982beb24ad0c4de4cfebf2e5d4f68ce0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/3caadccae012b81e052b2dc97a10e3f9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/3caadccae012b81e052b2dc97a10e3f9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/83b9bd9d15871ac6efd9120b990586d5/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/83b9bd9d15871ac6efd9120b990586d5/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e4f74824ebe54a0212f25a96c45a6aaa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e4f74824ebe54a0212f25a96c45a6aaa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5cea00ad3ede163e50d5f42b802b5738/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5cea00ad3ede163e50d5f42b802b5738/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/62fee95d6de55b1e58aa64c959f4d28d/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/62fee95d6de55b1e58aa64c959f4d28d/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/6a4a7dbd15f9a5d87367ac3fbd598764/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/6a4a7dbd15f9a5d87367ac3fbd598764/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3406f7ccb0ff500475a6c235f9f24975/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3406f7ccb0ff500475a6c235f9f24975/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/506572ada58ed253cc668dfe46a2cdd2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/506572ada58ed253cc668dfe46a2cdd2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/188e58ab56881bf486615b88e1beb14e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/rondutta/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/188e58ab56881bf486615b88e1beb14e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2d2392155b168eb96ad53d800e3a3bc7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2d2392155b168eb96ad53d800e3a3bc7/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/948acf4f48f9abbf4170a15296a05d21/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/948acf4f48f9abbf4170a15296a05d21/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c2655355d63de6aa58a8e06115ed41a5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/2366c68c4bd8d9ccb17fff7287ca6d3a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/11b8c0b0a757bd909ef0a89184b940dd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2d2392155b168eb96ad53d800e3a3bc7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2d2392155b168eb96ad53d800e3a3bc7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/5a98b3486639fbeee5a27be98121a0af/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a098f5d9d47b0331e8acb885e1276e3f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/7fd902c39ba3c3634f150cfc98c8e2fa/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4f688909e36ac87603effbc6fa7a3ce1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/255ab500342b34bb610220dd7c458760/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/9260e4916664f59f9a4b50d3a4c82d32/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/24da06dfd11d5ccc8c73f1f3571d3e92/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutta/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/0a1dc76b0f42f8d24521d53a89782970/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:9:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

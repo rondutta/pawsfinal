@@ -1,0 +1,4 @@
+#Thu Mar 29 15:13:38 GMT 2018
+base.0=/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

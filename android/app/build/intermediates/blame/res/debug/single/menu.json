@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/res/merged/debug/menu/stub.xml",
+        "source": "/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/pawsfinal/react-native-navigation/unspecified/res/menu/stub.xml"
+    },
+    {
+        "merged": "/home/rondutta/react-native-projects/pawsfinal/android/C:\\Users\\Rayan Dutta\\Documents\\react-native\\pawsfinal\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stub.xml",
+        "source": "/home/rondutta/react-native-projects/pawsfinal/android/C:\\Users\\Rayan Dutta\\Documents\\react-native\\pawsfinal\\android\\app\\build\\intermediates\\exploded-aar\\pawsfinal\\react-native-navigation\\unspecified\\res\\menu\\stub.xml"
+    },
+    {
+        "merged": "/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/res/merged/debug/menu/search_item.xml",
+        "source": "/home/rondutta/react-native-projects/pawsfinal/android/app/build/intermediates/exploded-aar/pawsfinal/react-native-navigation/unspecified/res/menu/search_item.xml"
+    },
+    {
+        "merged": "/home/rondutta/react-native-projects/pawsfinal/android/C:\\Users\\Rayan Dutta\\Documents\\react-native\\pawsfinal\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_item.xml",
+        "source": "/home/rondutta/react-native-projects/pawsfinal/android/C:\\Users\\Rayan Dutta\\Documents\\react-native\\pawsfinal\\android\\app\\build\\intermediates\\exploded-aar\\pawsfinal\\react-native-navigation\\unspecified\\res\\menu\\search_item.xml"
+    }
+]
