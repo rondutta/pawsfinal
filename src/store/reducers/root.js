@@ -14,7 +14,8 @@ const reducer = (state=initialState,action)=>{
             posts : state.posts.concat({
             key: Math.random(),
             name: action.postName,
-            image: doggoImage
+            image: doggoImage,
+            location: action.location
             })
         };
         case DELETE_POST:

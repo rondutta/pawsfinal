@@ -18,6 +18,10 @@ class SharePost extends Component {
                 validationRules:{
                     notEmpty: true
                 }
+            },
+            location:{
+                value: null,
+                valid: false
             }
         }
     };
@@ -54,9 +58,24 @@ class SharePost extends Component {
     }
 
     postAddHandler = () => {
-        if(this.state.controls.post.value.trim() !== ""){
-            this.props.onAddPost(this.state.controls.post.value);
-        }
+            this.props.onAddPost(
+                this.state.controls.post.value,
+                this.state.controls.location.value
+            );
+    }
+
+    locationPickedHandler = location => {
+        this.setState(prevState=>{
+            return {
+                controls:{
+                    ...prevState.controls,
+                    location:{
+                        value: location,
+                        valid: true
+                    }
+                }
+            }
+        });
     }
     
     render() {
@@ -69,7 +88,7 @@ class SharePost extends Component {
                     </HeadingText>
                 </Text>
                 <PickImage/>
-                <PickLocation/>
+                <PickLocation onLocationPick = {this.locationPickedHandler}/>
                 <PostInput 
                 postData={this.state.controls.post}
                 onChangeText={this.postChangeHandler} />
@@ -77,7 +96,8 @@ class SharePost extends Component {
                   <Button 
                   title = "Share your post" 
                   onPress={this.postAddHandler}
-                  disabled={!this.state.controls.post.valid}
+                  disabled={!this.state.controls.post.valid || 
+                  !this.state.controls.location.valid}
                   />
                 </View>
              </View>   
@@ -88,7 +108,7 @@ class SharePost extends Component {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onAddPost : (post) => dispatch(addPost(post))
+        onAddPost : (post, location) => dispatch(addPost(post,location))
     }
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import {ScrollView, StyleSheet, FlatList} from 'react-native';
-
+import { ScrollView, StyleSheet } from 'react-native';
+import {OptimizedFlatList} from 'react-native-optimized-flatlist';
 import ListItem from '../ListItem/ListItem';
 
 const postList = (props) => {
     return(
-        <FlatList
+        <OptimizedFlatList
          style={styles.listContainer}
          data={props.posts}
          renderItem={(info)=>(

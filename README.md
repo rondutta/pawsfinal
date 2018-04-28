@@ -1,6 +1,6 @@
-Paws: v1.0
+## Paws: v1.0
 
-## Android : Tested, Built
+Android : Tested, Built
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 

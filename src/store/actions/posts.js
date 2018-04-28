@@ -1,8 +1,9 @@
 import { ADD_POST,DELETE_POST } from './actionTypes';
-export const addPost = (postName)=>{
+export const addPost = (postName, location)=>{
     return {
         type: ADD_POST,
-        postName: postName
+        postName: postName,
+        location: location
     };
 }
 
