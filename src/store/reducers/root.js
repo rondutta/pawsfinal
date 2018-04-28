@@ -1,5 +1,4 @@
 import { ADD_POST, DELETE_POST } from '../actions/actionTypes';
-import doggoImage from '../../../assets/dogwall.jpg';
 
 const initialState = {
     posts: []
@@ -14,7 +13,9 @@ const reducer = (state=initialState,action)=>{
             posts : state.posts.concat({
             key: Math.random(),
             name: action.postName,
-            image: doggoImage,
+            image: {
+                uri: action.image.uri
+            },
             location: action.location
             })
         };

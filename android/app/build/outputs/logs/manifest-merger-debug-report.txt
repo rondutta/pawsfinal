@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
 MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
 MERGED from [:react-native-vector-icons] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:2:1-15:12
@@ -37,20 +38,20 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /home/rondutta/.gr
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a216f4211466231f4de17c678a03abda/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/c9d3a0b70e94a1b70e65ccfbed0bab88/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
 		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:2:5-28
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -72,8 +73,18 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:6:5-78
 	android:name
 		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:8:5-28:19
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [com.facebook.react:react-native:0.54.3] /home/rondutta/.gradle/caches/transforms-1/files-1.1/react-native-0.54.3.aar/cf88994d374f400ae109b368eaac9921/AndroidManifest.xml:13:5-20
@@ -121,55 +132,57 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /home/rondutta/.gradle/
 MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/rondutta/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/209b0179f1d8c0eac14a29e2eb1a6252/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:12:7-39
 	android:icon
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:13:7-41
 	android:allowBackup
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:12:7-34
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:14:7-34
 	android:theme
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:15:7-38
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:11:7-38
 activity#com.pawsfinal.MainActivity
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:14:7-23:18
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:16:7-25:18
 	android:label
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:18:9-41
 	android:windowSoftInputMode
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:20:9-51
 	android:configChanges
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:17:9-79
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:19:9-79
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:15:9-37
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:17:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:26:7-84
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:26:17-81
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:25:7-27:64
+ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:27:7-29:64
 	android:value
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:27:7-62
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:29:7-62
 	android:name
-		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:26:7-52
+		ADDED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:28:7-52
 uses-sdk
 INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml
 MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
@@ -248,6 +261,22 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from [:react-native-maps] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
+provider#android.support.v4.content.FileProvider
+ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
 activity#com.reactnativenavigation.controllers.NavigationActivity
 ADDED from [:react-native-navigation] /home/rondutta/react-native-projects/pawsfinal/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
 	android:configChanges
@@ -308,9 +337,7 @@ MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/rondutt
 		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:10:13-66
 	android:name
 		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/rondutta/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c019c4ea05fdb955c600105cf2e24637/AndroidManifest.xml:9:13-58
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/rondutta/react-native-projects/pawsfinal/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

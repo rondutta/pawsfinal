@@ -22,6 +22,10 @@ class SharePost extends Component {
             location:{
                 value: null,
                 valid: false
+            },
+            image:{
+                value: null,
+                valid: false
             }
         }
     };
@@ -60,7 +64,8 @@ class SharePost extends Component {
     postAddHandler = () => {
             this.props.onAddPost(
                 this.state.controls.post.value,
-                this.state.controls.location.value
+                this.state.controls.location.value,
+                this.state.controls.image.value
             );
     }
 
@@ -77,6 +82,20 @@ class SharePost extends Component {
             }
         });
     }
+
+    imagePickedHandler = image => {
+        this.setState(prevState => {
+            return {
+                controls:{
+                    ...prevState.controls,
+                    image:{
+                        value: image,
+                        valid: true
+                    }
+                }
+            }
+        })
+    }
     
     render() {
         return (
@@ -87,7 +106,7 @@ class SharePost extends Component {
                       Share Your Pet Post Now!
                     </HeadingText>
                 </Text>
-                <PickImage/>
+                <PickImage onImagePick={this.imagePickedHandler}/>
                 <PickLocation onLocationPick = {this.locationPickedHandler}/>
                 <PostInput 
                 postData={this.state.controls.post}
@@ -97,7 +116,9 @@ class SharePost extends Component {
                   title = "Share your post" 
                   onPress={this.postAddHandler}
                   disabled={!this.state.controls.post.valid || 
-                  !this.state.controls.location.valid}
+                  !this.state.controls.location.valid ||
+                  !this.state.controls.image.valid
+                }
                   />
                 </View>
              </View>   
@@ -108,7 +129,7 @@ class SharePost extends Component {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onAddPost : (post, location) => dispatch(addPost(post,location))
+        onAddPost : (post, location, image) => dispatch(addPost(post,location,image))
     }
 }
 
