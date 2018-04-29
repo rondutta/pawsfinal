@@ -1,6 +1,33 @@
-## Paws: v1.0
+# Paws: v1.0
 
 Android : Tested, Built
+
+## Installation / Execution instructions :
+
+###  `git clone https://github.com/rondutta/pawsfinal && cd pawsfinal`
+
+to clone the directory into your local machine.
+
+###  `npm install`
+
+installs the required dependencies in the node_modules folder of the project.
+
+###  `npm start`
+
+Starts the Development Server or Metro Bundler or localhost:8081
+**Note:Keep this window open whilst development and debugging.**
+With an android/ios device connected or emulated and properly configured, proceed.
+
+###  `npm run ios` or `npm run android`
+
+Depending on your OS/Emulated device use the above command.
+
+*Contributions and feature updates are most welcome*
+
+
+*for any other script related issues, read the **Create React Native App** documentation below.*
+
+## Create React Native App
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
