@@ -1,4 +1,4 @@
-import { ADD_POST, DELETE_POST } from '../actions/actionTypes';
+import { SET_POSTS, REMOVE_POST } from '../actions/actionTypes';
 
 const initialState = {
     posts: []
@@ -7,25 +7,18 @@ const initialState = {
 
 const reducer = (state=initialState,action)=>{
     switch (action.type){
-        case ADD_POST:
-         return {
-             ...state,
-            posts : state.posts.concat({
-            key: Math.random(),
-            name: action.postName,
-            image: {
-                uri: action.image.uri
-            },
-            location: action.location
-            })
-        };
-        case DELETE_POST:
-         return{
+        case SET_POSTS:
+        return {
             ...state,
-            posts : state.posts.filter(post => {
-             return post.key !== action.postKey;
-            }),
-         };
+            posts: action.posts
+        }
+        case REMOVE_POST:
+        return {
+            ...state,
+            posts: state.posts.filter(post => {
+                return post.key !== action.key;
+            })
+        }
         default:
          return state;
     }

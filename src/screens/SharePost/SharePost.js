@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Button, StyleSheet, ScrollView, Image } from 'react-native';
+import { View, Text, Button, StyleSheet, ScrollView, Image, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import { addPost } from '../../store/actions/index';
 import PostInput from '../../components/PostInput/PostInput';
@@ -98,6 +98,17 @@ class SharePost extends Component {
     }
     
     render() {
+        let submitButton = (<Button
+            title="Share your post"
+            onPress={this.postAddHandler}
+            disabled={!this.state.controls.post.valid ||
+                !this.state.controls.location.valid ||
+                !this.state.controls.image.valid
+            }
+        />);
+        if(this.props.isLoading){
+            submitButton = <ActivityIndicator/>
+        }
         return (
              <ScrollView>
              <View style={styles.container}>
@@ -112,18 +123,17 @@ class SharePost extends Component {
                 postData={this.state.controls.post}
                 onChangeText={this.postChangeHandler} />
                 <View style={styles.button}>
-                  <Button 
-                  title = "Share your post" 
-                  onPress={this.postAddHandler}
-                  disabled={!this.state.controls.post.valid || 
-                  !this.state.controls.location.valid ||
-                  !this.state.controls.image.valid
-                }
-                  />
+                  {submitButton}
                 </View>
              </View>   
              </ScrollView>
         );
+    }
+}
+
+const mapStateToProps = state => {
+    return {
+        isLoading: state.ui.isLoading
     }
 }
 
@@ -155,4 +165,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default connect(null,mapDispatchToProps)(SharePost);
+export default connect(mapStateToProps,mapDispatchToProps)(SharePost);

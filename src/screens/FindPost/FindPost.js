@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
 import { connect } from 'react-redux';
+import { getPosts } from '../../store/actions/index';
 import PostList from '../../components/PostList/PostList';
 
 class FindPost extends Component {
@@ -11,6 +12,10 @@ class FindPost extends Component {
     constructor(props){
         super(props);
         this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+    }
+
+    componentDidMount() {
+        this.props.onLoadPosts();
     }
 
     onNavigatorEvent = event => {
@@ -89,6 +94,12 @@ const mapStateToProps = state => {
     }
 }
 
+const mapDispatchToProps = dispatch => {
+    return {
+        onLoadPosts: () => dispatch(getPosts())
+    }
+} 
+
 const styles = StyleSheet.create({
     buttonContainer: {
         flex: 1,
@@ -108,4 +119,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default connect(mapStateToProps)(FindPost);
+export default connect(mapStateToProps,mapDispatchToProps)(FindPost);
