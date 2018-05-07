@@ -19,7 +19,7 @@ class PickLocation extends Component {
             latitude: coords.latitude,
             longitude: coords.longitude,
         });
-        this.setState(prevState=>{
+        this.setState(prevState => {
             return {
                 currentLocation:{
                     ...prevState.currentLocation,

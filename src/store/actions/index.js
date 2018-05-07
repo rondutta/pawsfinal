@@ -1,3 +1,3 @@
 export { addPost, deletePost, getPosts } from './posts';
-export { authStatus } from './auth';
+export { authStatus, authGetToken } from './auth';
 export { uiStartLoading,uiStopLoading } from './ui'

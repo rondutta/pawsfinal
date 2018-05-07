@@ -75,7 +75,7 @@ class FindPost extends Component {
         );
         if(this.state.postsLoaded === true){
             postContent=(
-              <PostList 
+              <PostList
                posts={this.props.posts} 
                onItemSelected={this.itemSelectedHandler}/>
             );

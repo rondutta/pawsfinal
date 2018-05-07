@@ -28,7 +28,7 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "npm": "^5.8.0",
+    "npm": "^6.0.0",
     "react": "^16.3.0-alpha.1",
     "react-native": "0.54.3",
     "react-native-elements": "^0.19.1",
@@ -36,6 +36,7 @@
     "react-native-maps": "^0.21.0",
     "react-native-navigation": "^1.1.424",
     "react-native-optimized-flatlist": "^1.0.4",
+    "react-native-refreshable-flatlist": "^0.1.1",
     "react-native-vector-icons": "^4.5.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View, Button, TextInput, 
+import { Text, View, Button, TextInput, ActivityIndicator, 
     KeyboardAvoidingView, Keyboard, 
     TouchableWithoutFeedback,StyleSheet, 
     ImageBackground, Dimensions } from 'react-native';
-import startMainTabs from '../MainTabs/startMainTabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
@@ -68,8 +67,7 @@ class Auth extends Component {
             email: this.state.controls.email.value,
             password: this.state.controls.password.value,
         };
-        this.props.onLogin(authData);
-        startMainTabs();
+        this.props.onAuthStatus(authData,this.state.authMode);
     }
 
     authSwitcher = () => {
@@ -125,6 +123,16 @@ class Auth extends Component {
     render() {
         let header = null;
         let confirmPasswordControl = null;
+        let loginButton = (
+            <CustomButton color="#29aaf4" onPress={this.authHandler}
+            disabled={
+                !this.state.controls.email.valid ||
+                !this.state.controls.password.valid ||
+                !this.state.controls.confirmPassword.valid && this.state.authMode === 'signup'
+            }
+            >Submit
+            </CustomButton>
+        ); 
         let introText = this.state.authMode === 'login' ? 'Log In !' : 'Sign Up !';
         if(this.state.viewMode === 'portrait'){
             header = (
@@ -147,6 +155,10 @@ class Auth extends Component {
                      />
                  </View>   
             );
+        }
+
+        if(this.props.isLoading){
+            loginButton = <ActivityIndicator/>;
         }
 
         return (
@@ -188,15 +200,8 @@ class Auth extends Component {
                  {confirmPasswordControl}
                 </View>
              </View>
-             </TouchableWithoutFeedback> 
-            <CustomButton color="#29aaf4" onPress={this.authHandler}
-            disabled={
-                !this.state.controls.email.valid ||
-                !this.state.controls.password.valid ||
-                !this.state.controls.confirmPassword.valid && this.state.authMode === 'signup'
-            }
-            >Submit
-            </CustomButton> 
+             </TouchableWithoutFeedback>
+             {loginButton} 
             </KeyboardAvoidingView>
             </ImageBackground>
         );
@@ -240,10 +245,17 @@ const styles = StyleSheet.create({
     }
 });
 
+const mapStateToProps = state => {
+    return {
+        isLoading: state.ui.isLoading
+    }
+}
+
 const mapDispatchToProps = dispatch => {
     return {
-        onLogin: authData => dispatch(authStatus(authData))
+        onAuthStatus: ( authData, authMode ) => dispatch(authStatus(authData,authMode))
     }
 };
 
-export default connect(null,mapDispatchToProps)(Auth);
+
+export default connect(mapStateToProps,mapDispatchToProps)(Auth);
