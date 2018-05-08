@@ -3,9 +3,9 @@ import { uiStartLoading, uiStopLoading, authGetToken } from './index'
 
 export const addPost = (postName, location, image)=>{
     return dispatch => {
-        let authToken;
+        let authToken = null;
         dispatch(uiStartLoading());
-        dispatch(authGetToken)
+        dispatch(authGetToken())
         .catch(() => {
             alert("Not a valid token!");
         })
@@ -93,7 +93,7 @@ export const setPosts = posts => {
 
 export const deletePost = (key) => {
     return dispatch => {
-        dispatch(authGetToken)
+        dispatch(authGetToken())
         .catch(() => {
                 alert("Not a valid token!")
         })
