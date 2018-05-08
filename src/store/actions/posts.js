@@ -4,7 +4,6 @@ import { uiStartLoading, uiStopLoading, authGetToken } from './index'
 export const addPost = (postName, location, image)=>{
     return dispatch => {
         let authToken;
-
         dispatch(uiStartLoading());
         dispatch(authGetToken)
         .catch(() => {
@@ -100,7 +99,7 @@ export const deletePost = (key) => {
         })
         .then(token => {
             dispatch(removePost(key));
-            return fetch("https://paws-8e222.firebaseio.com/posts" + key + ".json?auth=" + token, {
+            return fetch("https://paws-8e222.firebaseio.com/posts/" + key + ".json?auth=" + token, {
                 method: 'DELETE'
             })
         })
